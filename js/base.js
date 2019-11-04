@@ -12,7 +12,6 @@ $work.each(function(i,obj){
 
 	itemWatch[i].enterViewport(function(){
 		$work.eq(i).addClass('show');
-		console.info(i + 'is shown')
 	});
 	itemWatch[i].exitViewport(function(){
 		$work.eq(i).removeClass('show');
